@@ -1,4 +1,4 @@
-import requests
+import network
 
 def get_token_price(symbol):
     url = f"https://api.coingecko.com/api/v3/simple/price?ids={symbol}&vs_currencies=usd"
