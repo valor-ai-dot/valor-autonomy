@@ -15,6 +15,10 @@ jobs:
         with:
           python-version: '3.x'
       - name: Install dependencies
-        run: pip install requests
+        run: pip install -r requirements.txt
+
       - name: Run autonomy core
         run: python autonomy_core.py
+
+      - name: Send push alert
+        run: python app_requests/send_alert.py
