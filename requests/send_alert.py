@@ -1,4 +1,4 @@
-import requests
+import network
 import json
 
 def send_telegram_alert(message, token, chat_id):
