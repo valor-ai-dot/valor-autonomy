@@ -1,3 +1,0 @@
-schedule
-requests
-PyGithub==1.58.1
