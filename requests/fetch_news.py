@@ -1,4 +1,4 @@
-import requests
+import network
 
 def fetch_latest_news():
     url = "https://cryptopanic.com/api/v1/posts/?auth_token=demo&public=true"
