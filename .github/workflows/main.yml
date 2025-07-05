@@ -2,8 +2,8 @@
 
 on:
   schedule:
-    - cron: '*/10 * * * *'
-  workflow_dispatch:
+    - cron: '*/10 * * * *'  # кожні 10 хвилин
+  workflow_dispatch:        # можливість запускати вручну
 
 jobs:
   run_ai_loop:
