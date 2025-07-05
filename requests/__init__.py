@@ -1,1 +1,1 @@
-# Init for requests package
+# Init for network package
